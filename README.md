@@ -94,3 +94,8 @@ O script envia os 15 ataques (RT-01–RT-15) ao agente e salva as respostas em `
 - Os testes dependem de um **agente já implantado e acessível**; sem uma `API_URL` válida no `.env`, todas as chamadas falham.
 - O `judge.py` usa um LLM **local** via Ollama — sem o serviço rodando, as métricas do DeepEval não conseguem ser calculadas.
 - O `requirements.txt` foi salvo em UTF-16; se o `pip install` reclamar de encoding, reabra e salve o arquivo como UTF-8 antes de instalar.
+
+
+## Participação🤞
+Agradeço a todos os meus colegas que estiveram dividindo suas dúvidas e descobertas comigo ao longo desse desafio, 
+em especial ao meu amigo João Gabriel que foi quase um professor particular para mim!
